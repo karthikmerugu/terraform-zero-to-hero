@@ -1,9 +1,4 @@
 {
- 
-  "features": {
-    "ghcr.io/devcontainers/features/terraform:1": {},
-    "ghcr.io/devcontainers/features/aws-cli:1": {},
-    "ghcr.io/devcontainers/features/git-lfs:1": {}
-  },
-  "postCreateCommand": "echo DEVCONTAINER_WORKED && terraform version && aws --version"
+  "name": "Terraform AWS",
+  "image": "mcr.microsoft.com/devcontainers/universal:2"
 }
